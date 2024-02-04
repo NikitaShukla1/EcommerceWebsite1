@@ -1,0 +1,18 @@
+body{
+    overflow: visible;
+}
+.container,h1{
+    text-align: left;
+    padding:1rem 0 ;
+}
+.divaddproduct{
+    padding: 1rem;
+    background-color: #fff;
+    position: absolute;
+    max-width: 1150px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.divaddproduct,label{
+    text-align:left;
+    padding:1rem 0 ;
+}

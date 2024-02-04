@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar-2{
+    opacity: 8;
+    background: #000000;
+    height: 8rem;
+}
+
+.contact-info {
+    font-size: 12px;
+}
+
+.nav-links {
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.nav-items:hover {
+    color: #fed517!important;
+    cursor: pointer;
+}
+
+.nav-items {
+    margin-right: 200px;
+    margin-left: -140px;
+}
+.nav-icon{
+    margin-right:15px;
+    font-size: large;
+}
+.cart{
+    top:0.5rem;
+    right:3.6rem;
+    padding:0px 6px;
+    font-size: small;
+    background: rgb(221,221,221);
+    height: 18px;
+}
+
+.img-logo{
+    height: 5rem;
+}
+
+.logo h5 {
+    font-weight: 800;
+    margin: 4px -27px;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.main-div-navbar .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+/* @media only screen and (max-width: 1024px) {
+    .main-div-navbar{
+        max-width: 1024px;
+    }
+    .main-div-navbar .nav-btn {
+        visibility: visible;
+		opacity: 1;
+    }
+    .main-div-navbar .navbar-hamburger
+    {
+        font-size: x-large;
+    }
+    
+    .img-logo{
+        height: 4rem;
+        margin-top:-2.5rem;
+    }
+    .navbar-2{
+        opacity: 8;
+        background: #000000;
+        height: 6rem;
+    }
+    .navbar-2 .navbar-toggler{
+        margin-left: 27em;
+    }
+    header .responsive_nav {
+		transform: translateY(100vh);
+	}
+    
+} */
+
+@media only screen and (max-width: 480px) {
+    .main-div-navbar{
+        max-width: 1024px;
+    }
+    .main-div-navbar .nav-btn {
+        visibility: visible;
+		opacity: 1;
+    }
+    .main-div-navbar .navbar-hamburger
+    {
+        font-size: x-large;
+    }
+    
+    .img-logo{
+        height: 4rem;
+        margin-top:-2.5rem;
+    }
+    .navbar-2{
+        opacity: 8;
+        background: #000000;
+        height: 6rem;
+    }
+    /* .navbar-2 .navbar-toggler{
+        margin-left: 27em;
+    } */
+    header .responsive_nav {
+		transform: translateY(100vh);
+	}
+    
+}

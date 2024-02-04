@@ -1,0 +1,158 @@
+.Card-2 form input {
+    width: -webkit-fill-available;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin: 4px 26px;
+    resize: vertical;
+}
+
+/* .Card-2 h3 {
+    text-align: center;
+    font-size: 17px;
+    background: linear-gradient(45deg, black 80%, #fed517 65%);
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: -1px;
+    width: -webkit-fill-available;
+    border-bottom: 3px solid;
+    padding: 12px 25px;
+    margin: 0px 0px 21px;
+} */
+
+.Card-2 form textarea {
+    width: -webkit-fill-available;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin: 4px 26px;
+    resize: vertical;
+    background: #00000005;
+}
+
+.Card-2 form {
+    margin: -9% 1% 0% 44%;
+}
+
+.btn-submit:hover {
+    background: #2e2c41;
+    color: white;
+
+}
+
+/* new css */
+.section-1,
+.section-2 {
+    width: 50%;
+}
+/* .container{
+    display: flex;
+    margin-left:0;
+} */
+.contact-container{
+    display: flex;
+    margin-left:14rem;
+}
+.contactus-form {
+    background-color: #fff;
+    /* height:50%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5rem;
+    padding: 5rem
+}
+
+.contactus-form h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.contactus-form input {
+    width: -webkit-fill-available;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin: 4px 26px;
+    resize: vertical;
+}
+
+.contactus-form textarea {
+    width: -webkit-fill-available;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    margin: 4px 26px;
+    resize: vertical;
+    background: #00000005;
+}
+
+.section-2 .card {
+    width: 22rem;
+    padding: 3rem;
+   margin:1rem;
+   background: black;
+    color: #eee;
+    box-shadow: #fac213 7px 7px 0px;
+
+}
+.section-2 .row{
+    margin-top: 5rem;
+    margin-left: -5rem;
+   
+}
+
+.section-2 .card:hover {
+    transition: all .3s ease-in-out;
+    opacity: 0.6;
+    transition:.5s;
+    -webkit-transition: .5s;
+
+}
+ .contact-icons {
+    font-size: xxx-large;
+    margin: -2rem 0rem 2rem 5rem;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .section-1,
+    .section-2 {
+        width: 100%;
+        display: block;
+    }
+    .contact-container {
+        display: block;
+        margin-left: 0;        
+    }
+    .contactus-form {
+        padding: 0.5rem;
+    }
+    .section-2 .card {
+        /* width: 12rem;
+        padding: 1rem; */
+        width: 15rem;
+        padding: 3rem;
+        margin-left: 2rem
+    }
+    .section-2 .row{
+        margin-top: 6rem;
+        /* margin-left: -1rem; */
+        margin-left: -0.2rem;
+       
+    }
+    .contact-icons {
+        font-size: xx-large;
+        margin: 0rem 2rem 1rem 2.1rem;
+    
+    }
+    .section-2 h3{
+        font-size: x-small;
+    }
+    .section-2 p{
+        font-size: x-small !important;
+    }
+}

@@ -1,0 +1,79 @@
+.title h2{
+    font-family: emoji;
+}
+
+.trend-links{
+    font-size: 17px;
+    font-weight: 600;
+    color: #212934 !important;
+}
+
+.trend-links:hover{
+    color: #fed517 !important;
+    cursor: pointer;
+}
+
+/* corousal */
+.carousell .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	color: #999;
+	margin-right: 5px;
+}
+.carousell .item-price span {
+	color: #86bd57;
+	font-size: 110%;
+}
+.new-categories-img{
+    height: 21rem;
+    width: 36rem;
+    position: relative;
+    max-height: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow:
+    0 1.4px 1.7px rgba(0, 0, 0, 0.017),
+    0 3.3px 4px rgba(0, 0, 0, 0.024),
+    0 6.3px 7.5px rgba(0, 0, 0, 0.03),
+    0 11.2px 13.4px rgba(0, 0, 0, 0.036),
+    0 20.9px 25.1px rgba(0, 0, 0, 0.043),
+    0 50px 60px rgba(0, 0, 0, 0.06);
+}
+
+.new-categories-img:hover {
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
+    transition:.5s;
+    -webkit-transition: .5s;
+    /* transform: scale(1.2); */
+    background-image: url("http://localhost:3000/reactfirstwebsite/static/media/sec_slide_img.jpg");
+  }
+  
+  .new-categories-img:hover:before {
+    transition: all .3s ease-in-out;
+  }
+  .new-arrivals{
+    margin-bottom:10%;
+    margin-top:5%;
+  }
+  .new-arrival-card{
+    box-shadow: 2px 6px 8px 0 rgba(22,22,26,.18);
+  }
+  .new-arrivals .card-body{
+    /* width: 25rem; */
+  }
+  .new-arrivals li{
+    /* width:29rem !important; */
+  }
+
+  @media only screen and (max-width: 480px) {
+    .trend-links {
+      font-size: 10px;
+    }
+    .trend-item
+    {
+      margin-right:0;
+    }
+  }
